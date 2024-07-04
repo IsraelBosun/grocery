@@ -26,7 +26,7 @@ export default function Welcome() {
           <Text style={tw`text-2xl font-semibold`}>Welcome</Text>
           <Text style= {tw`text-gray-500 `}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minus perferendis quo suscipit.</Text>
           <View style={tw`mt-5 flex gap-5 `}>
-            <TouchableOpacity onPress={()=> router.push('/(tabs)')} style = {tw`flex-row  justify-center gap-7 items-center py-3 rounded-md bg-white`}>
+            <TouchableOpacity onPress={()=> router.push('/(tabs)/Home')} style = {tw`flex-row  justify-center gap-7 items-center py-3 rounded-md bg-white`}>
                 <Image style ={tw`w-7 h-7`} source={require('../assets/images/google-icon.png')} />
                 <Text style={tw`text-lg text-[#868889]`}>Continue with Google</Text>
             </TouchableOpacity>
